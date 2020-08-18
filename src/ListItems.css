@@ -1,0 +1,52 @@
+.list{
+    color: #fff;
+    width: 90%;
+    margin: 20px auto;
+    height: 50px; 
+    background-color: rgb(68, 202, 219);
+    border-radius: 5px;
+
+}
+.list p{
+    padding: 10px;
+    position: relative;
+    transition: ease-in-out;
+}
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+   font-size: 18px;
+}
+.list p input:focus{
+    outline: none;
+}
+.list p span{
+    position: absolute;
+    right: 10px;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.faicons2{
+    margin: 0 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.recipesAnim-enter{
+    opacity: 0.01;
+}
+.recipesAnim-enter .recipesAnim-enter-active{
+    opacity: 1;
+    transition: opacity 300ms ease-in
+}
+.recipesAnim-leave{
+    opacity: 1;
+}
+.recipesAnim-leave .recipesAnim-leave-active{
+    opacity: 0.01;
+    transition: opacity 300ms ease-in
+}

@@ -1,0 +1,66 @@
+body{
+  background-color: rgb(143, 245, 231);
+
+}
+.App{
+  background-color: white;
+  min-height:500px;
+  width: 400px;
+  height: 100%;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+#to-do-form input{
+  background-color: rgb(235, 235, 235);
+  border: 0; 
+  color: black;
+  width: 80%;
+  height: 50px;
+  padding-top: 10px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+#to-do-form textarea{
+  background-color: rgb(235, 235, 235);
+  border: 0; 
+  color: black;
+  width: 90%;
+  box-sizing:border-box;
+  height: 200px;
+  margin: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  resize: none;
+}
+#to-do-form textarea::placeholder{
+  color: rgba(74, 78, 75, 0.897);
+}
+#to-do-form input::placeholder{
+  color: rgba(74, 78, 75, 0.897);
+}
+#to-do-form input:focus{
+  outline: none;
+}
+#to-do-form .button{
+  height: 50px;
+  width: 90%;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  font-size: 15px;
+  margin: 20px;
+  padding: 0 20px;
+  border-radius: 5px;
+  background-color:rgb(62, 233, 119); 
+  cursor: pointer;
+}
+
+#to-do-form button:focus{
+  outline: none;
+}
